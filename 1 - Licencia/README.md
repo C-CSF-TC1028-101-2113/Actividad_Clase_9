@@ -1,24 +1,4 @@
-![Tec de Monterrey](../../images/logotecmty.png)
 # Licencia
-
-Modifica el programa que se encuentra en la carpeta `src` que se llama
-`exercise.py` y que contiene el siguiente código:
-
-```python
-
-def main():
-    edad = int(input("Ingresa tu edad: "))
-    # Escribe el código adecuado para completar el programa
-    # Para pedir el dato de la idetificación oficial emplea este mensaje:
-    # "¿Tienes identificación oficial? (s/n): "
-
-
-
-if __name__ == '__main__':
-    main()
-```
-
-Recuerda, la línea `# Escribe el código adecuado para completar el programa` es un comentario, el programa la va a ignorar al ejecutarse.
 
 ## Definición del problema
 Una persona puede obtener su licencia de manejo si es mayor de edad y tiene identificación oficial.
@@ -68,11 +48,3 @@ Ingresa tu edad: 20
 ¿Tienes identificación oficial? (s/n): g
 Respuesta incorrecta
 ```
-
-**Nota:** No te preocupes por esta parte del código
-`if __name__ == '__main__':` por el momento. No la vamos a necesitar para
-este programa, pero es una buena práctica incluirla y quedará más
-claro para que sirve en los siguientes ejercicios.
-
-Una vez que termines tu actividad y la hayas probado con `python -m pytest --tb=short -v`,
-subela a tu repositorio en GitHub, con el proceso de commit + push.
